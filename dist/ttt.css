@@ -1,0 +1,26 @@
+
+ul {
+    list-style: none;
+    border: 5px solid #000;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.ttt {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+  float: left;
+  width: 90px;
+  height: 90px;
+  border: 5px solid #000;;
+  background: #666;
+}
+
+li:hover {
+  background: yellow;
+}
