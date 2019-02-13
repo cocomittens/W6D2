@@ -24,3 +24,21 @@ li {
 li:hover {
   background: cyan;
 }
+
+.x {
+    background-color: white;
+    color: red;
+}
+
+.x:after {
+  content: "x";
+}
+
+.o {
+    background-color: white;
+    color: black;
+}
+
+.o:after {
+  content: "o";
+}
