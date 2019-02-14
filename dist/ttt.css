@@ -25,20 +25,35 @@ li:hover {
   background: cyan;
 }
 
+.x, .o {
+  font-size: 60px;
+}
+
 .x {
     background-color: white;
     color: red;
 }
 
+.x:hover {
+    background-color: white;
+    color: black;
+    
+}
+
 .x:after {
-  content: "x";
+  content: "X";
 }
 
 .o {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: cyan;
+}
+
+.o:hover {
+    background-color: black;
+    color: white;
 }
 
 .o:after {
-  content: "o";
+  content: "O";
 }

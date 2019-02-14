@@ -8,10 +8,10 @@ class View {
   }
 
   bindEvents() {
-    const $li = $("<li>");
-    $li.click(function() {
-      this.makeMove(this);
-    })
+    this.$el.on("click", "li", (e => {
+      let $space = $(e.currentTarget);
+      this.makeMove($space);
+    }));
   }
 
   makeMove($space) {
